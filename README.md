@@ -1,5 +1,22 @@
 # perla
 
+Here is [DEMO LINK](https://)
+
+
+## Technologies:
+ - Vue 3 (Composition API)
+ - SCSS
+ - Bootstrap 5
+
+## The layout uses two fonts:
+ - Onest
+ - Piazzolla
+
+## All elements are adapted to 3 breakpoints:
+- 1024 px,
+- 768 px,
+- 375 px.
+
 ## Project setup
 ```
 npm install
