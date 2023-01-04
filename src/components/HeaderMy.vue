@@ -209,7 +209,6 @@ const props = defineProps({
         right: -15px;  
         top: -18px;
       }
-     
     }
   
     &__nav-decktop {
@@ -244,6 +243,5 @@ const props = defineProps({
         color: #000;
         opacity: 0.5;
       }
-
-  }
+ }
 </style>

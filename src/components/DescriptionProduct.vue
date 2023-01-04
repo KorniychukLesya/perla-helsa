@@ -51,20 +51,26 @@
           </button>
         </div>
       </nav>
-      <div class="tab-content tab-content-phone" id="nav-tabContent">
+      <div class="tab-content" id="nav-tabContent">
         <div
           class="tab-pane fade show active"
           id="nav-home"
           role="tabpanel"
           aria-labelledby="nav-home-tab"
         >
-          Комплекс EPA + DHA кислот і натуральних вітамінів А & D3 для здоров'я
-          твоєї шкіри,
-          <span id="dots">...</span>
-          <span id="more">
-            волосся, зору, сну, міцних кісток, суглобів та імунітету.
-          </span>
-          <button @click="toglContent()" id="contentBtn">Дізнатись більше</button>
+          <div class="tab-content-phone">
+            Комплекс EPA + DHA кислот і натуральних вітамінів А & D3 для здоров'я
+            твоєї шкіри,
+            <span id="dots">...</span>
+            <span id="more">
+              волосся, зору, сну, міцних кісток, суглобів та імунітету.
+            </span>
+            <button @click="toglContent()" id="contentBtn">Дізнатись більше</button>
+          </div>
+          <div class="tab-content-descktop">
+            Комплекс EPA + DHA кислот і натуральних вітамінів А & D3 для здоров'я
+            твоєї шкіри, волосся, зору, сну, міцних кісток, суглобів та імунітету.
+          </div>
         </div>
   
         <div
@@ -73,7 +79,12 @@
           role="tabpanel"
           aria-labelledby="nav-profile-tab"
         >
+        <div class="tab-content-phone">
+           ...
+          </div>
+          <div class="tab-content-descktop">
           ...
+          </div>
         </div>
         <div
           class="tab-pane fade"
@@ -81,7 +92,12 @@
           role="tabpanel"
           aria-labelledby="nav-contact-tab"
         >
-          ...
+        <div class="tab-content-phone">
+            ...
+          </div>
+          <div class="tab-content-descktop">
+           ...
+          </div>
         </div>
         <div
           class="tab-pane fade"
@@ -89,45 +105,15 @@
           role="tabpanel"
           aria-labelledby="nav-contact-tab"
         >
-          ...
+        <div class="tab-content-phone">
+            ...
+          </div>
+          <div class="tab-content-descktop">
+           ...
+          </div>
         </div>
       </div>
-      <div class="tab-content tab-content-descktop" id="nav-tabContent">
-        <div
-          class="tab-pane fade show active"
-          id="nav-home"
-          role="tabpanel"
-          aria-labelledby="nav-home-tab"
-        >
-          Комплекс EPA + DHA кислот і натуральних вітамінів А & D3 для здоров'я
-          твоєї шкіри, волосся, зору, сну, міцних кісток, суглобів та імунітету.
-        </div>
-  
-        <div
-          class="tab-pane fade"
-          id="nav-profile"
-          role="tabpanel"
-          aria-labelledby="nav-profile-tab"
-        >
-          ...
-        </div>
-        <div
-          class="tab-pane fade"
-          id="nav-contact"
-          role="tabpanel"
-          aria-labelledby="nav-contact-tab"
-        >
-          ...
-        </div>
-        <div
-          class="tab-pane fade"
-          id="nav-contact"
-          role="tabpanel"
-          aria-labelledby="nav-contact-tab"
-        >
-          ...
-        </div>
-      </div>
+     
 </template>
   
 <script setup>

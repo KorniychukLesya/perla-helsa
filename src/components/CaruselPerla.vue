@@ -42,24 +42,14 @@
 </template>
 
 <script setup>
-import { defineProps } from "vue";
-
-const props = defineProps({
-  productsPHotos: String,
-});
-
-let firstPhoto = "";
-let otherPhotos = [];
-
-const getFirstPhoto = () => {
-  firstPhoto = props.productsPHotos[0];
-};
-getFirstPhoto();
-
-const getOtherPhotos = () => {
-  otherPhotos = props.productsPHotos.slice(1);
-};
-getOtherPhotos();
+  import { defineProps, ref } from "vue";
+  
+  const props = defineProps({
+    productsPHotos: String,
+  });
+  
+  let firstPhoto = ref(props.productsPHotos[0]);
+  let otherPhotos = ref(props.productsPHotos.slice(1));
 </script>
 
 <style lang="scss">
