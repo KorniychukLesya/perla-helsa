@@ -13,18 +13,7 @@
           >
             Опис
           </button>
-          <button
-            class="nav-link"
-            id="nav-profile-tab"
-            data-bs-toggle="tab"
-            data-bs-target="#nav-profile"
-            type="button"
-            role="tab"
-            aria-controls="nav-profile"
-            aria-selected="false"
-          >
-            КОРИСТЬ
-          </button>
+          
           <button
             class="nav-link"
             id="nav-contact-tab"
