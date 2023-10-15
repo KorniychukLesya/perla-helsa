@@ -47,6 +47,30 @@
             aria-controls="nav-contact"
             aria-selected="false"
           >
+            ІНГРЕДІЄНТИ
+          </button>
+          <button
+            class="nav-link"
+            id="nav-contact-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-contact"
+            type="button"
+            role="tab"
+            aria-controls="nav-contact"
+            aria-selected="false"
+          >
+            СПОСІБ ЗАСТОСУВАННЯ
+          </button>
+          <button
+            class="nav-link"
+            id="nav-contact-tab"
+            data-bs-toggle="tab"
+            data-bs-target="#nav-contact"
+            type="button"
+            role="tab"
+            aria-controls="nav-contact"
+            aria-selected="false"
+          >
             СПОСІБ ЗАСТОСУВАННЯ
           </button>
         </div>
